@@ -1,9 +1,8 @@
 # 📊 AI Data Analysis Agent
 
-### 🎓 FREE Step-by-Step Tutorial 
-**👉 [Click here to follow our complete step-by-step tutorial](https://www.theunwindai.com/p/build-an-ai-data-analysis-agent) and learn how to build this from scratch with detailed code walkthroughs, explanations, and best practices.**
+An intelligent AI data analysis agent built using the Agno Agent framework and OpenAI's GPT-4o model. This agent helps users analyze their data through natural language queries, making data analysis accessible to everyone regardless of their SQL expertise.
 
-An AI data analysis Agent built using the Agno Agent framework and Openai's gpt-4o model. This agent helps users analyze their data - csv, excel files through natural language queries, powered by OpenAI's language models and DuckDB for efficient data processing - making data analysis accessible to users regardless of their SQL expertise.
+**Key Improvement**: This project uses Pandas for robust data analysis on Windows systems, with full support for CSV and Excel files.
 
 ## Features
 
@@ -17,11 +16,11 @@ An AI data analysis Agent built using the Agno Agent framework and Openai's gpt-
   - Get instant answers about your data
   - No SQL knowledge required
 
-- 🔍 **Advanced Analysis**:
-  - Perform complex data aggregations
-  - Filter and sort data
-  - Generate statistical summaries
-  - Create data visualizations
+- 🔍 **Advanced Analysis** (Powered by Pandas):
+  - Perform complex data aggregations and filtering
+  - Statistical summaries and insights
+  - Multi-step data transformations
+  - Cross-platform compatibility
 
 - 🎯 **Interactive UI**:
   - User-friendly Streamlit interface
@@ -33,8 +32,8 @@ An AI data analysis Agent built using the Agno Agent framework and Openai's gpt-
 1. **Setup Environment**
    ```bash
    # Clone the repository
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps/starter_ai_agents/ai_data_analysis_agent
+   git clone https://github.com/TharushaSachinthana/ai-data-analysis-agent.git
+   cd ai-data-analysis-agent
 
    # Install dependencies
    pip install -r requirements.txt
